@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+# Models
+models/pretrained/*.pt
+models/trained/*.pt
+models/checkpoints/*.pt
+models/checkpoints/*.pth
+
+# Results
+results/training/*/
+results/test_run/*/
+results/logs/*
+results/metrics/*
+results/predictions/*
+!results/logs/.gitkeep
+!results/metrics/.gitkeep
+!results/predictions/.gitkeep
+
+# Runs (YOLOv8 auto-generated)
+runs/
+
+# Datasets (optional - uncomment if too large)
+data/*/
+
+# Docs
+docs/
+
+# Temporary files
+*.tmp
+*.log
+.ipynb_checkpoints/
