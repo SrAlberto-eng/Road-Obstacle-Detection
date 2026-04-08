@@ -26,10 +26,9 @@ Thumbs.db
 
 # Project specific
 # Models
-models/pretrained/*.pt
-models/trained/*.pt
-models/checkpoints/*.pt
-models/checkpoints/*.pth
+models/trained/*.png
+models/trained/*.jpg
+models/trained/*.csv
 
 # Results
 results/training/*/
@@ -45,7 +44,7 @@ results/predictions/*
 runs/
 
 # Datasets (optional - uncomment if too large)
-data/*/
+data/
 
 # Docs
 docs/

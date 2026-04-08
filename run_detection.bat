@@ -13,7 +13,7 @@ call venv\Scripts\activate.bat
 REM Ejecutar script de detección
 python scripts/inference/predict_video_realtime.py ^
   --video data/test.mp4 ^
-  --model results/training/debris_pothole_v1/weights/best.pt ^
+  --model models/trained/debris_pothole_v1/weights/best.pt ^
   --conf 0.65 ^
   --conf-coco 0.65
 
