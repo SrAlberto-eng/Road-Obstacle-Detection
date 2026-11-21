@@ -8,7 +8,7 @@ ultralytics>=8.0.0  # YOLOv8
 
 # Computer Vision
 opencv-python>=4.8.0
-Pillow>=10.0.0
+Pillow>=10.0.1
 
 # Data Processing
 numpy>=1.24.0
